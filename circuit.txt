@@ -1,0 +1,4 @@
+0 AND I0 I1 
+1 NOT I0
+2 AND 1 I2
+3 OR 0 2
