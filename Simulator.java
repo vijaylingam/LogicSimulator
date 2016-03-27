@@ -24,7 +24,7 @@ public class Simulator {
             counter = Integer.parseInt(string[0]);  //converting string to integer.
         }
         counter += 1; // gate number starts with '0'
-        System.out.println("Number of gates in the netlist file are: "+ counter);
+        System.out.println(counter);
         return counter;
     }
     /**
@@ -61,7 +61,7 @@ public class Simulator {
                 } 
             }
         }
-        System.out.println("Fanout of gate #"+ gatenumber + " is: " + counter);
+        System.out.println(gatenumber + " " + counter);
     }    
 /**
     simulation method takes in netlist, inputlist, nGates(number of gates) as arguments which are of type File, File, and integer. This method goes through the inputlist and
